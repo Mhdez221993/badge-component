@@ -1,3 +1,30 @@
+:root {
+  --color-brand-700: #4338ca;
+  --color-brand-200: #c7d2fe;
+  --color-brand-50: #eef2ff;
+
+  --color-success-700: #15803d;
+  --color-success-200: #bbf7d0;
+  --color-success-200: #f0fdf4;
+
+  --color-warning-700: #b45309;
+  --color-warning-200: #fde68a;
+  --color-warning-50: #fffbeb;
+
+  --color-darnger-700: #dc2626;
+  --color-darnger-200: #fecaca;
+  --color-darnger-50: #fef2f2;
+
+  --color-neutral-700: #171717;
+  --color-neutral-200: #525252;
+  --color-neutral-50: #e6e6e6;
+
+  --color-border-50: #f9fafb;
+
+  --color-bd-bg-1: #f9fafb;
+  --color-bd-bg-2: #d2d6db;
+}
+
 body {
   margin: 0;
   font-family: "Noto Sans", system-ui, -apple-system, BlinkMacSystemFont,
@@ -10,4 +37,56 @@ body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+/* Container */
+.badge_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  max-width: 220px;
+  gap: 30px;
+  margin-top: 200px;
+  margin-right: auto;
+  text-align: center;
+}
+
+/* Base class */
+.badge {
+  font-family: "Noto Sans";
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+}
+
+/* Size classes */
+.badge_size_sm {
+  /* Define unique properties for size="sm". */
+}
+.badge_size_md {
+  /* Define unique properties for size="md". */
+}
+.badge_size_lg {
+  /* Define unique properties for size="lg". */
+}
+
+/* Color classes */
+.badge_color_neutral {
+  /* Define unique properties for color="neutral". */
+}
+.badge_color_danger {
+  /* Define unique properties for color="danger". */
+}
+.badge_color_warning {
+  /* Define unique properties for color="warning". */
+}
+.badge_color_success {
+  /* Define unique properties for color="success". */
+}
+.badge_color_brand {
+  /* Define unique properties for color="brand". */
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 1440px) {
 }
