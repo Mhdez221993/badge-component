@@ -1,6 +1,6 @@
 # Badge Component
 
-This challenge requires careful planning of the structure of the CSS classes in order to maximize code reuse and maintainability.
+This repository implements a versatile badge component designed to bring consistency across various applications on the platform. Built with precision, the component adheres strictly to the specified design guidelines—covering typography, spacing, and dimensions—and supports multiple colors (Neutral, Error, Warning, Success, and Brand) and sizes (Small, Medium, Large). It is optimized for cross-browser compatibility, ensuring seamless performance in Chrome, Firefox, and Safari.
 
 ![screenshot](/designs/Desktop.jpg)
 
