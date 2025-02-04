@@ -74,6 +74,7 @@ body {
   width: 240px;
   justify-content: center;
   align-items: center;
+  margin: 0 auto;
 }
 
 /* Base class */
