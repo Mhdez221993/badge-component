@@ -88,7 +88,6 @@ body {
   font-weight: 400;
   width: fit-content;
   position: relative;
-  margin-top: -1px;
   white-space: nowrap;
 }
 
@@ -121,16 +120,24 @@ body {
   border: 1px solid #e5e5e5;
 }
 .badge_color_danger {
-  /* Define unique properties for color="danger". */
+  background-color: #fef2f2;
+  border: 1px solid #fecaca;
+  color: #dc2626;
 }
 .badge_color_warning {
-  /* Define unique properties for color="warning". */
+  color: #b45309;
+  background-color: #fffbeb;
+  border: 1px solid #fde68a;
 }
 .badge_color_success {
-  /* Define unique properties for color="success". */
+  color: #15803d;
+  background-color: #f0fdf4;
+  border: 1px solid #bbf7d0;
 }
 .badge_color_brand {
-  /* Define unique properties for color="brand". */
+  color: #4338ca;
+  background-color: #eef2ff;
+  border: 1px solid #c7d2fe;
 }
 
 @media (min-width: 768px) {
